@@ -41,3 +41,10 @@ print('a is {}'.format('b'))
 print('{} {} {}'.format('1', '2', '3'))
 print('{2} {1} {0}'.format('1', '2', '3'))
 print('My name is {name} {family}. Watashi wa {family} {name}'.format(name='Jun', family='Sakai'))
+
+a = 'f-string'
+print(f'a is {a}')
+
+name = 'AAA'
+family = 'BBB'
+print(f'My name is {name} {family}')

@@ -33,3 +33,10 @@ print(is_start)
 
 print(s.find('Mike'))
 print(s.rfind('Mike'))
+
+###
+
+print('a is {}'.format('b'))
+
+print('{} {} {}'.format('1', '2', '3'))
+print('{2} {1} {0}'.format('1', '2', '3'))

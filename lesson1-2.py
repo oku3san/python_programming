@@ -22,3 +22,6 @@ print(prefix + 'thon')
 s = ('aaaaaaaaaaaaaaaaaaaa'
      'bbbbbbbbbbbbbbbbbbbb')
 print(s)
+
+word = "python"
+print(word[0], word[-1])

@@ -64,3 +64,23 @@
 # print(id(Y))
 # print(Y)
 # print(X)
+
+###
+
+seat = []
+min = 0
+max = 5
+seat.append('p')
+seat.append('p')
+print(min <= len(seat) < max)
+print(len(seat))
+seat.append('p')
+seat.append('p')
+print(min <= len(seat) < max)
+print(len(seat))
+seat.append('p')
+print(min <= len(seat) < max)
+print(len(seat))
+print(seat.pop(0))
+print(min <= len(seat) < max)
+print(len(seat))

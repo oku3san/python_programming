@@ -18,3 +18,15 @@ print(x)
 print(y)
 print(x.index(3))
 print(x.count(3))
+
+###
+
+r = [1, 2, 3, 4, 5, 6, 7, 8, 9, 7, 10, 7]
+if 5 in r:
+    print('exists')
+r.sort()
+print(r)
+r.sort(reverse=True)
+print(r)
+
+###

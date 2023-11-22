@@ -18,14 +18,22 @@
 #
 # what_is_this('red')
 
-def what_is_this(color):
-    if color == 'red':
-        return 'tomato'
-    elif color == 'green':
-        return 'green pepper'
-    else:
-        return "I don't know"
+# def what_is_this(color):
+#     if color == 'red':
+#         return 'tomato'
+#     elif color == 'green':
+#         return 'green pepper'
+#     else:
+#         return "I don't know"
+#
+#
+# result = what_is_this('a')
+# print(result)
+
+def menu(entree, drink, dessert):
+    print('entree =', entree)
+    print('drink =', drink)
+    print('dessert =', dessert)
 
 
-result = what_is_this('a')
-print(result)
+menu(entree='beef', drink='beer', dessert='ice')

@@ -30,10 +30,10 @@
 # result = what_is_this('a')
 # print(result)
 
-def menu(entree, drink, dessert):
-    print('entree =', entree)
-    print('drink =', drink)
-    print('dessert =', dessert)
-
-
-menu(entree='beef', drink='beer', dessert='ice')
+# def menu(entree, drink, dessert):
+#     print('entree =', entree)
+#     print('drink =', drink)
+#     print('dessert =', dessert)
+#
+#
+# menu(entree='beef', drink='beer', dessert='ice')

@@ -37,3 +37,22 @@
 #
 #
 # menu(entree='beef', drink='beer', dessert='ice')
+
+# def sample_func(x, l=[]):
+#     l.append(x)
+#     return l
+#
+#
+# y = [1, 2, 3]
+# r = sample_func(100, y)
+# print(r)
+#
+# y = [1, 2, 3]
+# r = sample_func(200, y)
+# print(r)
+#
+# r = sample_func(100)
+# print(r)
+#
+# r = sample_func(100)
+# print(r)

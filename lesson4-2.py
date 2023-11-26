@@ -18,3 +18,13 @@
 # ca1 = circle_area_func(3.14)
 # print(ca1)
 # print(ca1(10))
+
+# def add_num(a, b):
+#     return a + b
+#
+#
+# print('start')
+# r = add_num(10, 20)
+# print('end')
+#
+# print(r)

@@ -65,22 +65,33 @@
 # r = add_num(10, 20)
 # print(r)
 
-def print_more(func):
-    def wrapper(*args, **kwargs):
-        print('func:', func.__name__)
-        print('args:', args)
-        print('kwargs:', kwargs)
-        result = func(*args, **kwargs)
-        print('result:', result)
-        return result
+# def print_more(func):
+#     def wrapper(*args, **kwargs):
+#         print('func:', func.__name__)
+#         print('args:', args)
+#         print('kwargs:', kwargs)
+#         result = func(*args, **kwargs)
+#         print('result:', result)
+#         return result
+#
+#     return wrapper
+#
+#
+# @print_more
+# def add_num(a, b):
+#     return a + b
+#
+#
+# r = add_num(10, 20)
+# print(r)
 
-    return wrapper
+l = ['Mon', 'tue', 'Wed', 'Thu', 'Fri', 'sat', 'Sun']
 
 
-@print_more
-def add_num(a, b):
-    return a + b
+def change_words(words, func):
+    for word in words:
+        print(func(word))
 
 
-r = add_num(10, 20)
-print(r)
+change_words(l, lambda word: word.capitalize())
+change_words(l, lambda word: word.lower())

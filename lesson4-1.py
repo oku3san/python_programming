@@ -98,3 +98,17 @@
 # }
 #
 # menu(**d)
+
+def example_func(param1, param2):
+    """Docstring example
+    Args:
+        param1(int)
+        param2(str)
+    """
+    print(param1)
+    print(param2)
+    return True
+
+
+print(example_func.__doc__)
+help(example_func)

@@ -56,3 +56,32 @@
 #
 # r = sample_func(100)
 # print(r)
+
+def say_something(*args):
+    for arg in args:
+        print(arg)
+
+
+say_something('a', 'b', 2)
+
+
+def menu(entree='beef', drink='wine'):
+    print(entree, drink)
+
+
+menu(entree='beef', drink='coffee')
+
+
+def menu(**kwargs):
+    print(kwargs)
+
+
+menu(entree='beef', drink='coffee')
+
+
+def menu(**kwargs):
+    for k, v in kwargs.items():
+        print(k, v)
+
+
+menu(entree='beef', drink='coffee')

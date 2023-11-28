@@ -1,3 +1,7 @@
+"""
+Test
+"""
+
 animal = 'cat'
 
 
@@ -9,3 +13,4 @@ def f():
 
 f()
 print('global:', animal)
+print('global:', globals())

@@ -2,9 +2,10 @@ animal = 'cat'
 
 
 def f():
-    print(animal)
+    global animal
     animal = 'dog'
     print('after:', animal)
 
 
 f()
+print('global:', animal)

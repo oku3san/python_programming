@@ -6,7 +6,12 @@
 # r = lesson_package.utils.say_twice('hello')
 # print(r)
 
-from lesson_package.utils import say_twice
+# from lesson_package.utils import say_twice
+#
+# r = say_twice('bbb')
+# print(r)
 
-r = say_twice('bbb')
+from lesson_package import utils
+
+r = utils.say_twice('bbb')
 print(r)

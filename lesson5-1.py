@@ -1,7 +1,12 @@
-import sys
-import lesson_package.utils
+# import sys
+# import lesson_package.utils
+#
+# print(sys.argv)
+#
+# r = lesson_package.utils.say_twice('hello')
+# print(r)
 
-print(sys.argv)
+from lesson_package.utils import say_twice
 
-r = lesson_package.utils.say_twice('hello')
+r = say_twice('bbb')
 print(r)

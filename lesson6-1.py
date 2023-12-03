@@ -21,6 +21,10 @@ class Person(object):
 
     def say_something(self):
         print('I am {}. hello'.format(self.name))
+        self.run(100)
+
+    def run(self, num):
+        print('run' * num)
 
 
 person = Person('Mike')
